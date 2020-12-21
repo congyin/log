@@ -19,13 +19,11 @@ public class TestOrderAnnotationAspect {
 
     private final static Logger logger = LoggerFactory.getLogger(TestOrderAnnotationAspect.class);
 
-
     /**
      * 横切点
      */
-    @Pointcut("execution(public * com.zjrcu.demo.controller.* .*(..))")
+    @Pointcut("execution(public * com.zjrcu.demo.controller.*.*(..))")
     public void orderLog(){}
-
 
     /**
      * 横切点方法执行之前执行

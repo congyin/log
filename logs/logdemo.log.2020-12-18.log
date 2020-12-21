@@ -1027,10 +1027,10 @@ Unconditional classes:
 2020-12-18 16:03:26.678 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2020-12-18 16:03:26.678 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
 2020-12-18 16:03:26.699 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/log/test", parameters={}
-2020-12-18 16:03:26.703 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.zjrcu.demo.TestController#test()
-2020-12-18 16:03:26.717 [http-nio-8080-exec-1] DEBUG com.zjrcu.demo.TestController - this is debug info.
-2020-12-18 16:03:26.717 [http-nio-8080-exec-1] INFO  com.zjrcu.demo.TestController - this is info info.
-2020-12-18 16:03:26.717 [http-nio-8080-exec-1] ERROR com.zjrcu.demo.TestController - this is error info.
+2020-12-18 16:03:26.703 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.zjrcu.demo.controller.TestController#test()
+2020-12-18 16:03:26.717 [http-nio-8080-exec-1] DEBUG com.zjrcu.demo.controller.TestController - this is debug info.
+2020-12-18 16:03:26.717 [http-nio-8080-exec-1] INFO  com.zjrcu.demo.controller.TestController - this is info info.
+2020-12-18 16:03:26.717 [http-nio-8080-exec-1] ERROR com.zjrcu.demo.controller.TestController - this is error info.
 2020-12-18 16:03:26.735 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
 2020-12-18 16:03:26.735 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Hello world!"]
 2020-12-18 16:03:26.743 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK

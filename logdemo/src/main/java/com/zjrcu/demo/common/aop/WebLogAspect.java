@@ -33,7 +33,7 @@ public class WebLogAspect {
     /**
      * 横切点
      */
-    @Pointcut("execution(* com.zjrcu.demo..*.*(..))")
+    @Pointcut("execution(* com..controller.TestController.test(..))")
     public void webLog(){}
 
     @Before(value = "webLog()&& @annotation(controllerWebLog)")

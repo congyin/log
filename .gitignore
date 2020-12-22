@@ -4,6 +4,7 @@
 logdemo/logdemo.iml
 # Log file
 *.log
+target/
 
 /logdemo/**.gitignore
 # BlueJ files
